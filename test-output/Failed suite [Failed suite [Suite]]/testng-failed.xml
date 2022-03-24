@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Suite]]]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="manager"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="http://localhost:8888"/>
+  <parameter name="username" value="admin"/>
+  <listeners>
+    <listener class-name="com.crm.autodeskSeleniumFramework.javaUtility.ListenerImplementationClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)(failed)(failed)">
+    <classes>
+      <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateOrganizationWithIndustryTest">
+        <methods>
+          <include name="afterT"/>
+          <include name="afterS"/>
+          <include name="afterC"/>
+          <include name="afterM"/>
+          <include name="createOrganization"/>
+          <include name="bs"/>
+          <include name="beforem"/>
+          <include name="bc"/>
+          <include name="bt"/>
+        </methods>
+      </class> <!-- com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateOrganizationWithIndustryTest -->
+    </classes>
+  </test> <!-- Test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->
