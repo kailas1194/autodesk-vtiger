@@ -80,6 +80,9 @@ public class GoIbIboHotelBookingTest {
 	    //used to click on search hotel button
 	    driver.findElement(By.xpath("//button[text()='Search Hotels']")).click();
 	   
+	    
+	    
+	    
 	    /**
 	     * to store all hotels and print all hotels name using foreach loop
 	     */
@@ -89,6 +92,9 @@ public class GoIbIboHotelBookingTest {
 	    	System.out.println("Hotel No. ::"+number+":: "+"hotel name :: "+webElement.getText());
 			number++;
 		}
+	    
+	    
+	    
 	    
 	    driver.quit();
 }
