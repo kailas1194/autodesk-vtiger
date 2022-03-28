@@ -9,29 +9,7 @@
       <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateOrganizationWithIndustryTest"/>
       <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.Tl_13_Test"/>
       <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.Tl_12"/>
-      <class name="practice.MultiGruopsInTest"/>
-      <class name="practice.VtTest"/>
-      <class name="practice.CalenderHandlingTest"/>
-      <class name="practice.RetryImplClass"/>
-      <class name="practice.Vtiget_ProductTest"/>
-      <class name="practice.SelectAllFlightListAndFareTest"/>
-      <class name="practice.Vtiger_OrgTest"/>
-      <class name="practice.VtigerTestNgTest"/>
-      <class name="practice.CreateOrgTestNgTest"/>
-      <class name="practice.Calender_JQueryTest"/>
-      <class name="practice.SelectTodaysDateAndFlightsTest"/>
-      <class name="practice.Calender_ActiTimeTest"/>
-      <class name="practice.CreateOrg_Verify_DeleteTest"/>
-      <class name="practice.HardAssert"/>
-      <class name="practice.LastSelect_OrganizationTest"/>
-      <class name="practice.MultipleSelectUsingForLoopTest"/>
-      <class name="practice.CalenderQATest"/>
-      <class name="practice.MultiSelectCheckBoxOrganizationTest"/>
-      <class name="practice.SoftassertTest"/>
-      <class name="practice.CalenderForFutureDate"/>
-      <class name="practice.CreateContactUsingDataProviderTest"/>
-      <class name="practice.DataDrivenTestFromXmlFile"/>
-      <class name="practice.LastSelectUsingForLoopTest"/>
+    
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
