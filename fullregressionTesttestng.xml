@@ -5,11 +5,7 @@
     <classes>
       <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateProduct_Test"/>
       <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateContact_ChooseOrgTest"/>
-      <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateCampaign_ChooseProductTest"/>
-      <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateOrganizationWithIndustryTest"/>
-      <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.Tl_13_Test"/>
-      <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.Tl_12"/>
-    
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
