@@ -68,11 +68,7 @@ public class SelectAllFlightListAndFareTest {
     	   System.out.println("flight name ::  "+webElement.getText());	
 	       }
        
-       /* capture all flight fare*/
-      /* List<WebElement> fare = driver.findElements(By.xpath("//p[@class='blackText fontSize18 blackFont white-space-no-wrap']"));
-        for (WebElement webElement : fare) { 
-    	System.out.println("flight fare ::  "+webElement.getText());*/
-    	
+       
     	driver.quit();
 
 	     }

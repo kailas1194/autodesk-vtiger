@@ -1,16 +1,13 @@
 package com.crm.autodeskSeleniumFramework.contacts;
 
-import java.io.IOException;
-
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import com.crm.autodeskSeleniumFramework.javaUtility.ExcelUtility;
 import com.crm.autodeskSeleniumFramework.javaUtility.JavaUtility;
 import com.crm.autodeskSeleniumFramework.javaUtility.PropertyUtility;
 import com.crm.autodeskSeleniumFramework.javaUtility.WebDriverUtility;
-import com.crm.vTigerTest.CreateContact_FillupPage;
+import com.crm.vtiger.contactRepository.CreateNewContact_FillUpPage;
 import com.vtiger.objectrepository.ContactLinkPage;
 import com.vtiger.objectrepository.CreateNewOrganization_FillUpPage;
 import com.vtiger.objectrepository.HomePage;
@@ -34,7 +31,7 @@ public class CreateContact_ChooseOrgTest {
 		driver.get(url);
 		String industryType=eu.getDataFromExcel("Sheet1", 3, 5);
 		String ExpectedOrg=eu.getDataFromExcel("Sheet1", 3, 0)+ju.getRandomNumber();
-		String lastname=eu.getDataFromExcel("Sheet1", 1, 7);
+		
 		/**
 		 * login to vtiger application
 		 */
@@ -56,17 +53,17 @@ public class CreateContact_ChooseOrgTest {
 		org.getCreateNewOrgIcon();
 		
 		/**
-		 * navigate to Neworganization Fillup page and create new organization
+		 * navigate to New organization Fillup page and create new organization
 		 */
 		
 		CreateNewOrganization_FillUpPage newOrg=new CreateNewOrganization_FillUpPage(driver);
 		newOrg.organizationNameTextFieldAndIndustry(ExpectedOrg);
 		
-		
+		/**
+		 * verify newly created orgnization
+		 */
 		VerifyNewCreatedOrganizationPage verifyOrg=new VerifyNewCreatedOrganizationPage(driver);
 		String actualorg=verifyOrg.createNewOrgIcon();
-		
-		//verify newly created orgnization
 		if (actualorg.contains(ExpectedOrg)) {
 			System.out.println("PASS:: organization created successsfully");	
 		}
@@ -74,16 +71,27 @@ public class CreateContact_ChooseOrgTest {
 			System.out.println("FAIL:: organization NOT created successsfully");
 		}
 		
+		/**
+		 * click on contacts link.
+		 */
 		hp.ContactsLink();
 		ContactLinkPage contact=new ContactLinkPage(driver);
 		contact.CreateContactIcon();
 		
-		CreateContact_FillupPage contactFillup=new CreateContact_FillupPage(driver);
-				contactFillup.chooseorgnizationClick(lastname);
+		/**
+		 * used to fill all mandatory field .
+		 */
+		CreateNewContact_FillUpPage fillup=new CreateNewContact_FillUpPage(driver);
+		String lastname=eu.getDataFromExcel("Sheet1", 2, 7);
+		String phoneno=eu.getDataFromExcel("Sheet1", 2, 9);
+		fillup.lastNameAndPhone(lastname, phoneno);
+		
+		/**
+		 * used to select previous created organization.
+		 */
+	
 				
-				
-				
-		driver.quit();
+	
 	}
 	
 	

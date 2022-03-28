@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.SelectAllFlightListAndFareTest">
+      <class name="practice.CreateOrg_Verify_DeleteTest">
         <methods>
-          <include name="allFlight"/>
+          <include name="deleteOrg"/>
         </methods>
-      </class> <!-- practice.SelectAllFlightListAndFareTest -->
+      </class> <!-- practice.CreateOrg_Verify_DeleteTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
