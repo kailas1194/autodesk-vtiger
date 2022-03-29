@@ -61,6 +61,7 @@
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
 						<suiteXmlFile>jenkinstestng.xml</suiteXmlFile>
+
 					</suiteXmlFiles>
 				</configuration>
 
