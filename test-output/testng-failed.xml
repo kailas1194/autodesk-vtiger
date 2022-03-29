@@ -3,11 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.CreateOrg_Verify_DeleteTest">
+      <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateCampaign_ChooseProductTest">
         <methods>
-          <include name="deleteOrg"/>
+          <include name="afterT"/>
+          <include name="afterS"/>
+          <include name="afterC"/>
+          <include name="createOrganization"/>
+          <include name="afterM"/>
+          <include name="bs"/>
+          <include name="beforem"/>
+          <include name="bc"/>
+          <include name="bt"/>
         </methods>
-      </class> <!-- practice.CreateOrg_Verify_DeleteTest -->
+      </class> <!-- com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateCampaign_ChooseProductTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

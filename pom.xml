@@ -16,6 +16,13 @@
 			<artifactId>selenium-java</artifactId>
 			<version>3.141.59</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+		
+<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.0.9</version>
+		</dependency>
 
 
 		<dependency>
@@ -27,7 +34,7 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.4.0</version>
-			
+
 		</dependency>
 		<dependency>
 			<groupId>com.opencsv</groupId>
@@ -60,7 +67,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<suiteXmlFile>jenkinstestng.xml</suiteXmlFile>
+						<suiteXmlFile>distributedParallelExecutiontestng.xml</suiteXmlFile>
 
 					</suiteXmlFiles>
 				</configuration>

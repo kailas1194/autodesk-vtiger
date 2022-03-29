@@ -254,10 +254,10 @@ public class WebDriverUtility {
 				 */
 			    public String takeScreenshot(WebDriver driver, String screenshotName) throws Throwable {
 			    	TakesScreenshot ts=(TakesScreenshot)driver;
-			    	File src=ts.getScreenshotAs(OutputType.FILE);
+			    	File file=ts.getScreenshotAs(OutputType.FILE);
 			    	String timeStamp=LocalDateTime.now().toString().replace(":","-");
 			    	File dest=new File("./screenshot/"+timeStamp+screenshotName+".PNG");
-			    	FileUtils.copyFile(src, dest);
+			    	FileUtils.copyFile(dest, dest);
 					return dest.getAbsolutePath();
 			        }
 

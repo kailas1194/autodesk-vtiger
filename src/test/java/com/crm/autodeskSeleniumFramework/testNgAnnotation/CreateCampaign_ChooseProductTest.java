@@ -1,6 +1,7 @@
 package com.crm.autodeskSeleniumFramework.testNgAnnotation;
 
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -18,6 +19,7 @@ import com.crm.vtiger.productRepository.Verify_CreatedProductPage;
  * @author CHAVAN
  *
  */
+@Listeners (com.crm.autodeskSeleniumFramework.javaUtility.IListenerImpClass.class)
 public class CreateCampaign_ChooseProductTest extends BaseClass {
 
 	@Test

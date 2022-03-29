@@ -13,6 +13,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.crm.autodeskSeleniumFramework.javaUtility.ExcelUtility;
@@ -24,7 +25,7 @@ import com.crm.vtiger.organizationRepository.ClickOn_CreateOrganizationIcon_Page
 import com.crm.vtiger.organizationRepository.Create_NewOrganization_Fillup_Page;
 import com.crm.vtiger.organizationRepository.Verify_CreateNewOrganization_Page;
 import com.crm.vtiger.organizationRepository.Verify_Organizations_Page;
-
+@Listeners (com.crm.autodeskSeleniumFramework.javaUtility.IListenerImpClass.class)
 public class CreateOrg_Verify_DeleteTest {
 	@Test
 	public void deleteOrg() throws Throwable {
