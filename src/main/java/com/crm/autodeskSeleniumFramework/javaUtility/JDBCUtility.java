@@ -77,6 +77,7 @@ public class JDBCUtility {
 	 */
 	    public void insertData(String query) {
 		try {
+			con=DriverManager.getConnection(IPathConstants.DB_URL, IPathConstants.DB_USERNAME, IPathConstants.DB_PASSWORD);
 			Statement stmt = con.prepareStatement(query);
 			stmt.execute(query);
 			
