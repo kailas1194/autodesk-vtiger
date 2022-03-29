@@ -1,5 +1,6 @@
 package com.crm.autodeskSeleniumFramework.testNgAnnotation;
 
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.crm.autodeskSeleniumFramework.javaUtility.BaseClass;
@@ -20,6 +21,7 @@ import com.crm.vtiger.organizationRepository.Create_NewOrganization_Fillup_Page;
  * @author CHAVAN
  *
  */
+@Listeners (com.crm.autodeskSeleniumFramework.javaUtility.IListenerImpClass.class)
 public class CreateContact_ChooseOrgTest extends BaseClass {
 
 	@Test

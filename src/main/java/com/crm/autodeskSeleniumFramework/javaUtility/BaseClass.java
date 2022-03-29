@@ -28,11 +28,12 @@ public class BaseClass {
 	public JavaUtility ju=new JavaUtility();
 	public PropertyUtility pro=new PropertyUtility();
 	public HomePage hp=new HomePage(driver);
+	public JDBCUtility database=new JDBCUtility();
 	public static WebDriver sDriver;
 	
 	@BeforeSuite
 	public void bs() {
-		System.out.println("database connections");
+		database.connectToDatabase();
 	}
 	@BeforeTest
 	public void bt() {
@@ -86,6 +87,6 @@ public class BaseClass {
 	
 	@AfterSuite
 	public void afterS() {
-		System.out.println("close the database connection");
+		database.closeConnection();
 	}
 }

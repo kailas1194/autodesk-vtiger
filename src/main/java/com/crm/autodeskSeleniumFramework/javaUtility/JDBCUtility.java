@@ -87,4 +87,15 @@ public class JDBCUtility {
 		}
 	}
 	
+	    /**
+	     * this method is used to close the database connection.
+	     */
+	    public void closeConnection() {
+	    	try {
+				con.close();
+			} catch (SQLException e) {
+				
+				e.printStackTrace();
+			}
+	    }
 }
