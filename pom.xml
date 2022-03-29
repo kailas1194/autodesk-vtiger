@@ -60,7 +60,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<suiteXmlFile>fullregressionTesttestng.xml</suiteXmlFile>
+						<suiteXmlFile>jenkinstestng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 
