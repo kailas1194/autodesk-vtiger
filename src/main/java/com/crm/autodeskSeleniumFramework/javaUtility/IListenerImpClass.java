@@ -13,6 +13,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 public class IListenerImpClass implements ITestListener{
     ExtentTest test;
 	ExtentReports report;
+	String path=null;
 	
 	@Override
 	public void onTestStart(ITestResult result) {
@@ -29,9 +30,11 @@ public class IListenerImpClass implements ITestListener{
 	public void onTestFailure(ITestResult result) {
 		test.log(Status.FAIL,result.getMethod().getMethodName());
 		test.log(Status.FAIL,result.getThrowable());
-		String path=null;
 		WebDriverUtility wUtil=new WebDriverUtility();
+		
+		
 		try {
+			
 			path=wUtil.takeScreenshot(BaseClass.sDriver,result.getMethod().getMethodName());
 		} catch (Throwable e) {
 			

@@ -28,7 +28,7 @@ public class ExcelUtility {
 	 */
 public int getRowCount(String sheetName) throws IOException {
 	
-		String filepath="E:\\Client\\Book1.xlsx";
+		String filepath=IPathConstants.EXCEL_PATH;
 		FileInputStream fin = new FileInputStream(filepath);
 		Workbook wb=WorkbookFactory.create(fin);
 		Sheet sheet=wb.getSheet(sheetName);
@@ -51,7 +51,7 @@ public int getRowCount(String sheetName) throws IOException {
  */
 	public String getDataFromExcel(String sheetName,int rowNumber,int cellNumber) throws EncryptedDocumentException, IOException {
 		
-			String filepath="E:\\Client\\Book1.xlsx";
+			String filepath=IPathConstants.EXCEL_PATH;
 			FileInputStream fin=new FileInputStream(filepath);
 			Workbook wb=WorkbookFactory.create(fin);
 			Sheet sheet=wb.getSheet(sheetName);
@@ -65,7 +65,7 @@ public int getRowCount(String sheetName) throws IOException {
 	
 	public int getDataCharSequenceFromExcel(String sheetName,int rowNumber,int cellNumber) throws EncryptedDocumentException, IOException {
 		
-		String filepath="E:\\Client\\Book1.xlsx";
+		String filepath=IPathConstants.EXCEL_PATH;
 		FileInputStream fin=new FileInputStream(filepath);
 		Workbook wb=WorkbookFactory.create(fin);
 		Sheet sheet=wb.getSheet(sheetName);

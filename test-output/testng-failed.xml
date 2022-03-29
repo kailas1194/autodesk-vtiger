@@ -3,19 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateCampaign_ChooseProductTest">
+      <class name="practice.DemoTest">
         <methods>
           <include name="afterT"/>
           <include name="afterS"/>
           <include name="afterC"/>
-          <include name="createOrganization"/>
           <include name="afterM"/>
           <include name="bs"/>
           <include name="beforem"/>
           <include name="bc"/>
+          <include name="demo1"/>
           <include name="bt"/>
         </methods>
-      </class> <!-- com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateCampaign_ChooseProductTest -->
+      </class> <!-- practice.DemoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

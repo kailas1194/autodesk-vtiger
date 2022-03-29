@@ -21,7 +21,7 @@ public class PropertyUtility {
 	 */
 public String getPropertiesKeyValue(String key) throws IOException {
 	
-		String filepath="./src/main/resources/common_data/properties.properties";
+		String filepath=IPathConstants.PROPERTIES_PATH;
 		FileInputStream fin = new FileInputStream(filepath);
 		Properties pro=new Properties();
 		pro.load(fin);

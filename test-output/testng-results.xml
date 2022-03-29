@@ -1,70 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-29T13:25:15 IST" name="Default suite" finished-at="2022-03-29T13:26:54 IST" duration-ms="99761">
+  <suite started-at="2022-03-29T15:03:18 IST" name="Default suite" finished-at="2022-03-29T15:04:13 IST" duration-ms="55111">
     <groups>
     </groups>
-    <test started-at="2022-03-29T13:25:15 IST" name="Default test" finished-at="2022-03-29T13:26:54 IST" duration-ms="99761">
-      <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateCampaign_ChooseProductTest">
-        <test-method is-config="true" signature="bs()[pri:0, instance:com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateCampaign_ChooseProductTest@618b19ad]" started-at="2022-03-29T13:25:15 IST" name="bs" finished-at="2022-03-29T13:25:15 IST" duration-ms="37" status="PASS">
+    <test started-at="2022-03-29T15:03:18 IST" name="Default test" finished-at="2022-03-29T15:04:13 IST" duration-ms="55111">
+      <class name="practice.DemoTest">
+        <test-method is-config="true" signature="bs()[pri:0, instance:practice.DemoTest@2d3379b4]" started-at="2022-03-29T15:03:18 IST" name="bs" finished-at="2022-03-29T15:03:18 IST" duration-ms="53" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bs -->
-        <test-method is-config="true" signature="bt()[pri:0, instance:com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateCampaign_ChooseProductTest@618b19ad]" started-at="2022-03-29T13:25:16 IST" name="bt" finished-at="2022-03-29T13:25:16 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="bt()[pri:0, instance:practice.DemoTest@2d3379b4]" started-at="2022-03-29T15:03:20 IST" name="bt" finished-at="2022-03-29T15:03:20 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bt -->
-        <test-method is-config="true" signature="bc()[pri:0, instance:com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateCampaign_ChooseProductTest@618b19ad]" started-at="2022-03-29T13:25:16 IST" name="bc" finished-at="2022-03-29T13:25:23 IST" duration-ms="6723" status="PASS">
+        <test-method is-config="true" signature="bc()[pri:0, instance:practice.DemoTest@2d3379b4]" started-at="2022-03-29T15:03:21 IST" name="bc" finished-at="2022-03-29T15:03:36 IST" duration-ms="15008" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bc -->
-        <test-method is-config="true" signature="beforem()[pri:0, instance:com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateCampaign_ChooseProductTest@618b19ad]" started-at="2022-03-29T13:25:23 IST" name="beforem" finished-at="2022-03-29T13:25:31 IST" duration-ms="8195" status="PASS">
+        <test-method is-config="true" signature="beforem()[pri:0, instance:practice.DemoTest@2d3379b4]" started-at="2022-03-29T15:03:36 IST" name="beforem" finished-at="2022-03-29T15:03:53 IST" duration-ms="17127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforem -->
-        <test-method signature="createOrganization()[pri:0, instance:com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateCampaign_ChooseProductTest@618b19ad]" started-at="2022-03-29T13:25:31 IST" name="createOrganization" finished-at="2022-03-29T13:26:53 IST" duration-ms="82303" status="FAIL">
-          <exception class="org.openqa.selenium.json.JsonException">
+        <test-method signature="demo()[pri:0, instance:practice.DemoTest@2d3379b4]" started-at="2022-03-29T15:03:53 IST" name="demo" finished-at="2022-03-29T15:03:53 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="afterM()[pri:0, instance:practice.DemoTest@2d3379b4]" started-at="2022-03-29T15:03:53 IST" name="afterM" finished-at="2022-03-29T15:03:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method is-config="true" signature="beforem()[pri:0, instance:practice.DemoTest@2d3379b4]" started-at="2022-03-29T15:03:53 IST" name="beforem" finished-at="2022-03-29T15:04:13 IST" duration-ms="20275" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[java.lang.reflect.InvocationTargetException
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='user_name']"}
+  (Session info: chrome=99.0.4844.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'KALYAN', ip: '172.31.144.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: driver.version: RemoteWebDriver]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\CHAVA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59013}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d484573eb6502263852dc5073e7a6b7a
+*** Element info: {Using=name, value=user_name}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='user_name']"}
+  (Session info: chrome=99.0.4844.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'KALYAN', ip: '172.31.144.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
-at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
-at java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:647)
-at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
-at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
-at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
-at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
-at org.openqa.selenium.json.Json.toJson(Json.java:42)
-at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
-at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\CHAVA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59013}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d484573eb6502263852dc5073e7a6b7a
+*** Element info: {Using=name, value=user_name}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
-at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
-at com.crm.vtiger.contactRepository.Vtiger_LogOutPage.mouseHoverAndClickOnSignOut(Vtiger_LogOutPage.java:40)
-at com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateCampaign_ChooseProductTest.createOrganization(CreateCampaign_ChooseProductTest.java:79)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)
+at com.crm.vtiger.leadRepository.LoginPage.login(LoginPage.java:57)
+at com.crm.autodeskSeleniumFramework.javaUtility.BaseClass.beforem(BaseClass.java:68)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -87,29 +106,35 @@ at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'KALYAN', ip: '172.31.144.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
-at org.openqa.selenium.json.Json.toJson(Json.java:44)
-... 38 more
-Caused by: java.lang.reflect.InvocationTargetException
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
-... 50 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sign Out"}
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforem -->
+        <test-method signature="demo1()[pri:0, instance:practice.DemoTest@2d3379b4]" started-at="2022-03-29T15:04:13 IST" name="demo1" finished-at="2022-03-29T15:04:13 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='user_name']"}
   (Session info: chrome=99.0.4844.82)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'KALYAN', ip: '172.31.144.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\CHAVA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58546}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 44302d4c1988f89b53120a1510a48220
-*** Element info: {Using=link text, value=Sign Out}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\CHAVA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59013}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d484573eb6502263852dc5073e7a6b7a
+*** Element info: {Using=name, value=user_name}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='user_name']"}
+  (Session info: chrome=99.0.4844.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KALYAN', ip: '172.31.144.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\CHAVA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59013}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d484573eb6502263852dc5073e7a6b7a
+*** Element info: {Using=name, value=user_name}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -122,40 +147,69 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy18.getWrappedElement(Unknown Source)
-at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
-at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
-at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
-at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
-... 55 more
+at jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)
+at com.crm.vtiger.leadRepository.LoginPage.login(LoginPage.java:57)
+at com.crm.autodeskSeleniumFramework.javaUtility.BaseClass.beforem(BaseClass.java:68)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.json.JsonException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createOrganization -->
-        <test-method is-config="true" signature="afterM()[pri:0, instance:com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateCampaign_ChooseProductTest@618b19ad]" started-at="2022-03-29T13:26:54 IST" name="afterM" finished-at="2022-03-29T13:26:54 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- demo1 -->
+        <test-method is-config="true" signature="afterM()[pri:0, instance:practice.DemoTest@2d3379b4]" started-at="2022-03-29T15:04:13 IST" name="afterM" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1648546453764" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterM -->
-        <test-method is-config="true" signature="afterC()[pri:0, instance:com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateCampaign_ChooseProductTest@618b19ad]" started-at="2022-03-29T13:26:54 IST" name="afterC" finished-at="2022-03-29T13:26:54 IST" duration-ms="643" status="PASS">
+        <test-method is-config="true" signature="afterC()[pri:0, instance:practice.DemoTest@2d3379b4]" started-at="2022-03-29T15:04:13 IST" name="afterC" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1648546453780" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterC -->
-        <test-method is-config="true" signature="afterT()[pri:0, instance:com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateCampaign_ChooseProductTest@618b19ad]" started-at="2022-03-29T13:26:54 IST" name="afterT" finished-at="2022-03-29T13:26:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterT()[pri:0, instance:practice.DemoTest@2d3379b4]" started-at="2022-03-29T15:04:13 IST" name="afterT" finished-at="2022-03-29T15:04:13 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterT -->
-        <test-method is-config="true" signature="afterS()[pri:0, instance:com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateCampaign_ChooseProductTest@618b19ad]" started-at="2022-03-29T13:26:56 IST" name="afterS" finished-at="2022-03-29T13:26:56 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterS()[pri:0, instance:practice.DemoTest@2d3379b4]" started-at="2022-03-29T15:04:15 IST" name="afterS" finished-at="2022-03-29T15:04:15 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterS -->
-      </class> <!-- com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateCampaign_ChooseProductTest -->
+      </class> <!-- practice.DemoTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
