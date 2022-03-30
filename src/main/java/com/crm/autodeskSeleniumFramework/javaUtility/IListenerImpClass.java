@@ -23,11 +23,13 @@ public class IListenerImpClass implements ITestListener{
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
+		//step 4:log the pass method.
 		test.log(Status.PASS,result.getMethod().getMethodName());
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
+		//step 5:log the failed method.
 		test.log(Status.FAIL,result.getMethod().getMethodName());
 		test.log(Status.FAIL,result.getThrowable());
 		WebDriverUtility wUtil=new WebDriverUtility();
@@ -46,6 +48,7 @@ public class IListenerImpClass implements ITestListener{
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
+		//step 6:log the skipped method.
 		test.log(Status.SKIP,result.getMethod().getMethodName());
 		test.log(Status.SKIP,result.getThrowable());
 	}
@@ -70,6 +73,7 @@ public class IListenerImpClass implements ITestListener{
 
 	@Override
 	public void onFinish(ITestContext context) {
+		
 	report.flush();
 	}
 
