@@ -53,7 +53,7 @@ public class CreateContact_ChooseOrgTest extends BaseClass {
 		   * this is used to choose industry type
 		   */
 		  ChooseIndustryPage chooseOrg=new ChooseIndustryPage(driver);
-		  String industry=eu.getDataFromExcel("Sheet1",3, 5);
+		  String industry=eu.getDataFromExcel("heet1",3, 5);
 		  chooseOrg.industrytype(industry);
 		  ClickOn_NewOrg_SaveButtonPage save=new ClickOn_NewOrg_SaveButtonPage(driver);
 		  save.clickOnNewSaveButton();
