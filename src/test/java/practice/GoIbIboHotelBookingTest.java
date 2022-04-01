@@ -52,7 +52,7 @@ public class GoIbIboHotelBookingTest {
 	    
 	    Thread.sleep(3000);
 	    driver.findElement(By.xpath("//div[text()='Check-out']/following-sibling::h4[@class='dwebCommonstyles__SmallSectionHeader-sc-112ty3f-9 SearchBlockUIstyles__CheckInDateWrapDiv-sc-fity7j-14 bjZxoj kSflmU']")).click();
-	    driver.findElement(By.xpath("//span[@data-testid='date_19_3_2022']")).click();
+	    driver.findElement(By.xpath("//span[@data-testid='date_19_3_2022'")).click();
 	    
 	    
 	    

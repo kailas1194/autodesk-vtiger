@@ -3,8 +3,6 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateProduct_Test"/>
-      <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateContact_ChooseOrgTest"/>
       <class name="practice.GoIbIboHotelBookingTest"/>
     </classes>
   </test> <!-- Test -->
