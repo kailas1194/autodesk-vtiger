@@ -3,10 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateContact_ChooseOrgTest"/>
-      <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateCampaign_ChooseProductTest"/>
-      <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateOrganizationWithIndustryTest"/>
-      <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.Tl_13_Test"/>
+     <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.Tl_13_Test"/>
       <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.Tl_12"/>
     </classes>
   </test> <!-- Test -->

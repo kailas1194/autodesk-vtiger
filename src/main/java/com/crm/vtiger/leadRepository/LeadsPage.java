@@ -22,7 +22,7 @@ public class LeadsPage {
 	/**
 	 * Declaration of WebElements
 	 */
-	@FindBy(xpath="//img[@title='Create Lead...']")
+	@FindBy(xpath="//img[@title='Create Lea...']")
 	private WebElement createNewLeadIcon;
 	
 	public WebElement getCreateNewLeadIcon() {
