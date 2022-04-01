@@ -67,7 +67,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<suiteXmlFile>fullregressionTesttestng.xml</suiteXmlFile>
+						<suiteXmlFile>batchExecutionTesttestng.xml</suiteXmlFile>
 
 					</suiteXmlFiles>
 				</configuration>
