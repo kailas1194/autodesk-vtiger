@@ -67,7 +67,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<suiteXmlFile>distributedParallelExecutiontestng.xml</suiteXmlFile>
+						<suiteXmlFile>fullregressionTesttestng.xml</suiteXmlFile>
 
 					</suiteXmlFiles>
 				</configuration>
