@@ -16,6 +16,26 @@ public class IListenerImpClass implements ITestListener{
 	String path=null;
 	
 	@Override
+	public void onStart(ITestContext context) {
+		//step 1: extent report configuration.
+		ExtentSparkReporter htmlextentreport = new ExtentSparkReporter("./extentreports"+new JavaUtility().getSystmeDate()+".html");
+		htmlextentreport.config().setReportName("Smoke execution report");
+		htmlextentreport.config().setDocumentTitle("autodesk selenium framework execution");
+		htmlextentreport.config().setTheme(Theme.DARK);
+		
+		
+		//step 2:attach physical report and do system configuration.
+		
+		report=new ExtentReports();
+		report.attachReporter(htmlextentreport);
+		report.setSystemInfo("os",System.getProperty("os.name"));
+		report.setSystemInfo("environment","testing environment");
+		report.setSystemInfo("url","http://localhost:8888");
+		report.setSystemInfo("reporter name","kailas");	
+	}
+
+	
+	@Override
 	public void onTestStart(ITestResult result) {
 		//step 3:create a test method during the test execution starts.
 		test=report.createTest(result.getMethod().getMethodName());
@@ -53,24 +73,7 @@ public class IListenerImpClass implements ITestListener{
 		test.log(Status.SKIP,result.getThrowable());
 	}
 
-	@Override
-	public void onStart(ITestContext context) {
-		//step 1: extent report configuration.
-		ExtentSparkReporter htmlextentreport = new ExtentSparkReporter("./extentreports"+new JavaUtility().getSystmeDate()+".html");
-		htmlextentreport.config().setReportName("Smoke execution report");
-		htmlextentreport.config().setDocumentTitle("autodesk selenium framework execution");
-		htmlextentreport.config().setTheme(Theme.DARK);
-		
-		//step 2:attach physical report and do system configuration.
-		
-		report=new ExtentReports();
-		report.attachReporter(htmlextentreport);
-		report.setSystemInfo("os",System.getProperty("os.name"));
-		report.setSystemInfo("environment","testing environment");
-		report.setSystemInfo("url","http://localhost:8888");
-		report.setSystemInfo("reporter name","kailas");	
-	}
-
+	
 	@Override
 	public void onFinish(ITestContext context) {
 		

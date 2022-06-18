@@ -2,48 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-29T18:40:27 IST" name="Default suite" finished-at="2022-03-29T18:42:15 IST" duration-ms="108127">
+  <suite started-at="2022-06-04T22:22:56 PDT" name="Default suite" finished-at="2022-06-04T22:23:30 PDT" duration-ms="34409">
     <groups>
     </groups>
-    <test started-at="2022-03-29T18:40:27 IST" name="Default test" finished-at="2022-03-29T18:42:15 IST" duration-ms="108127">
-      <class name="com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateContact_ChooseOrgTest">
-        <test-method is-config="true" signature="bs()[pri:0, instance:com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateContact_ChooseOrgTest@2d3379b4]" started-at="2022-03-29T18:40:25 IST" name="bs" finished-at="2022-03-29T18:40:27 IST" duration-ms="2163" status="PASS">
+    <test started-at="2022-06-04T22:22:56 PDT" name="Default test" finished-at="2022-06-04T22:23:30 PDT" duration-ms="34409">
+      <class name="javascriptExecutor.ScrollPage">
+        <test-method signature="scollPage()[pri:0, instance:javascriptExecutor.ScrollPage@62150f9e]" started-at="2022-06-04T22:22:56 PDT" name="scollPage" finished-at="2022-06-04T22:23:30 PDT" duration-ms="34224" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bs -->
-        <test-method is-config="true" signature="bt()[pri:0, instance:com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateContact_ChooseOrgTest@2d3379b4]" started-at="2022-03-29T18:40:28 IST" name="bt" finished-at="2022-03-29T18:40:28 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bt -->
-        <test-method is-config="true" signature="bc()[pri:0, instance:com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateContact_ChooseOrgTest@2d3379b4]" started-at="2022-03-29T18:40:29 IST" name="bc" finished-at="2022-03-29T18:40:36 IST" duration-ms="7464" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bc -->
-        <test-method is-config="true" signature="beforem()[pri:0, instance:com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateContact_ChooseOrgTest@2d3379b4]" started-at="2022-03-29T18:40:36 IST" name="beforem" finished-at="2022-03-29T18:40:49 IST" duration-ms="12842" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforem -->
-        <test-method signature="createOrganization()[pri:0, instance:com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateContact_ChooseOrgTest@2d3379b4]" started-at="2022-03-29T18:40:49 IST" name="createOrganization" finished-at="2022-03-29T18:42:14 IST" duration-ms="84607" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrganization -->
-        <test-method is-config="true" signature="afterM()[pri:0, instance:com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateContact_ChooseOrgTest@2d3379b4]" started-at="2022-03-29T18:42:14 IST" name="afterM" finished-at="2022-03-29T18:42:14 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterM -->
-        <test-method is-config="true" signature="afterC()[pri:0, instance:com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateContact_ChooseOrgTest@2d3379b4]" started-at="2022-03-29T18:42:14 IST" name="afterC" finished-at="2022-03-29T18:42:15 IST" duration-ms="1733" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterC -->
-        <test-method is-config="true" signature="afterT()[pri:0, instance:com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateContact_ChooseOrgTest@2d3379b4]" started-at="2022-03-29T18:42:15 IST" name="afterT" finished-at="2022-03-29T18:42:15 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterT -->
-        <test-method is-config="true" signature="afterS()[pri:0, instance:com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateContact_ChooseOrgTest@2d3379b4]" started-at="2022-03-29T18:42:18 IST" name="afterS" finished-at="2022-03-29T18:42:18 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterS -->
-      </class> <!-- com.crm.autodeskSeleniumFramework.testNgAnnotation.CreateContact_ChooseOrgTest -->
+        </test-method> <!-- scollPage -->
+      </class> <!-- javascriptExecutor.ScrollPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

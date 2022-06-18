@@ -3,19 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.DemoTest">
+      <class name="javascriptExecutor.ScrollPage">
         <methods>
-          <include name="afterT"/>
-          <include name="afterS"/>
-          <include name="afterC"/>
-          <include name="afterM"/>
-          <include name="bs"/>
-          <include name="beforem"/>
-          <include name="bc"/>
-          <include name="demo1"/>
-          <include name="bt"/>
+          <include name="scollPage"/>
         </methods>
-      </class> <!-- practice.DemoTest -->
+      </class> <!-- javascriptExecutor.ScrollPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
